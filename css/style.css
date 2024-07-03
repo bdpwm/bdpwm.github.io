@@ -208,16 +208,24 @@ p,h2,h3 {
     background: radial-gradient(56% 217.19% at 0% 100%, rgba(0, 119, 255, 0.2) 0%, rgba(88, 101, 242, 0.2) 0.01%, rgba(88, 101, 242, 0) 94.27%), #2C2C2C;
 }
 
-.ds:hover {
-    cursor: pointer;
-}
-
 .tg {
     background: radial-gradient(56% 217.19% at 0% 100%, rgba(64, 179, 224, 0.2) 0%, rgba(64, 179, 224, 0) 100%), #2C2C2C;
 }
 
 .gh {
-    background: radial-gradient(56% 217.19% at 0% 100%, rgba(244, 245, 246, 0.2) 0%, rgba(64, 179, 224, 0) 100%), #2C2C2C;
+    background: radial-gradient(56% 217.19% at 0% 100%, rgba(255, 255, 255, 0.2) 0%, rgba(64, 179, 224, 0) 100%), #2C2C2C;
+}
+
+.fb {
+    background: radial-gradient(56% 217.19% at 0% 100%, rgba(24, 119, 242, 0.2) 0%, rgba(64, 179, 224, 0) 100%), #2C2C2C;
+}
+
+.wa {
+    background: radial-gradient(56% 217.19% at 0% 100%, rgba(64, 216, 121, 0.2) 0%, rgba(64, 179, 224, 0) 100%), #2C2C2C;
+}
+
+.ma {
+    background: radial-gradient(56% 217.19% at 0% 100%, rgba(255, 255, 255, 0.2) 0%, rgba(64, 179, 224, 0) 100%), #2C2C2C;
 }
 
 .link-container {
@@ -313,12 +321,6 @@ footer {
     transition: 0.3s;
 }
 
-.show-me {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-    transition: 0.3s;
-}
 
 @media only screen and (max-width: 630px) {
     .content {
