@@ -216,18 +216,6 @@ p,h2,h3 {
     background: radial-gradient(56% 217.19% at 0% 100%, rgba(255, 255, 255, 0.2) 0%, rgba(64, 179, 224, 0) 100%), #2C2C2C;
 }
 
-.fb {
-    background: radial-gradient(56% 217.19% at 0% 100%, rgba(24, 119, 242, 0.2) 0%, rgba(64, 179, 224, 0) 100%), #2C2C2C;
-}
-
-.wa {
-    background: radial-gradient(56% 217.19% at 0% 100%, rgba(64, 216, 121, 0.2) 0%, rgba(64, 179, 224, 0) 100%), #2C2C2C;
-}
-
-.ma {
-    background: radial-gradient(56% 217.19% at 0% 100%, rgba(255, 255, 255, 0.2) 0%, rgba(64, 179, 224, 0) 100%), #2C2C2C;
-}
-
 .link-container {
     text-decoration: none;
 }
