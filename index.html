@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bdpwm</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/modal.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -16,11 +15,16 @@
             <div class="inhed-wrapper w100 f-row">
                 <div class="dev-name f-col">
                     <h2 class="name-title">Valerii Bondariev</h2>
-                    <p class="name-desc">Python Developer</p>
+                    <p class="name-desc">Elixir/Python Developer</p>
                     <p class="name-country">Bratislava, SK 🇸🇰</p>
                     <p class="name-skills"></p>
                 </div>
                 <div class="link-wrapper f-col">
+                    <div class="language-selector">
+                        <a href="#" onclick="changeLanguage('en')" class="lang-link active">EN</a> | 
+                        <a href="#" onclick="changeLanguage('ru')" class="lang-link">RU</a> | 
+                        <a href="#" onclick="changeLanguage('sk')" class="lang-link">SK</a>
+                    </div>
                     <a href="#" class="modality">       </a>
                 </div>
             </div>
@@ -74,5 +78,6 @@
             </a>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

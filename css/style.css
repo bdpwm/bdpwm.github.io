@@ -309,6 +309,24 @@ footer {
     transition: 0.3s;
 }
 
+.language-selector {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    font-family: 'Acrom';
+    font-size: 14px;
+}
+
+.lang-link {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    padding: 0 5px;
+    transition: color 0.3s;
+}
+
+.lang-link:hover, .lang-link.active {
+    color: rgba(255, 255, 255, 0.9);
+}
 
 @media only screen and (max-width: 630px) {
     .content {
