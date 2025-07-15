@@ -216,6 +216,10 @@ p,h2,h3 {
     background: radial-gradient(56% 217.19% at 0% 100%, rgba(255, 255, 255, 0.2) 0%, rgba(64, 179, 224, 0) 100%), #2C2C2C;
 }
 
+.lin {
+    background: radial-gradient(56% 217.19% at 0% 100%, rgba(38, 137, 176, 0.2) 0%, rgba(64, 179, 224, 0) 100%), #2C2C2C;
+}
+
 .link-container {
     text-decoration: none;
 }
